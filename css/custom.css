@@ -217,19 +217,21 @@ html.the-end .state-background {
 .global-footer-center{
   width:960px;
   margin:0 auto;
-
+  position: relative
 }
 
 .global-footer .logo{
-  display: inline-block;
   float:left;
+  left:0px;
+  position: absolute
 }
 .global-footer .location{
-  display: inline-block;  
+  left:200px;
+  position: absolute  
 }
 .global-footer .social{
-  float:right;
-  display: inline-block;
+  left:400px;
+    position: absolute
 }
 
 html.start .global-footer,
